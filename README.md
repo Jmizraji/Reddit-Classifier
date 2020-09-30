@@ -46,21 +46,22 @@ Reference the following links for descriptions of the Data Dictionary:
 
 As we'll see from the charts below, since the Google Home subreddit has roughly 140K more members, the amount of posts, scores, and comments tend to be higher than the Alexa subreddit. 
 
-<img src="https://git.generalassemb.ly/Jmizraji/project_3/blob/master/imgs/alexa_posts.jpeg"/> 
+<img src="https://github.com/Jmizraji/Reddit-Classifier/blob/master/imgs/alexa_posts.jpeg"/> 
 
-<img src="https://git.generalassemb.ly/Jmizraji/project_3/blob/master/imgs/google_posts.jpeg"/>
+<img src="https://github.com/Jmizraji/Reddit-Classifier/blob/master/imgs/google_posts.jpeg"/>
 
-<img src="https://git.generalassemb.ly/Jmizraji/project_3/blob/master/imgs/alexa_scores.jpeg"/> <img src="https://git.generalassemb.ly/Jmizraji/project_3/blob/master/imgs/google_scores.jpeg"/> 
+<img src="https://github.com/Jmizraji/Reddit-Classifier/blob/master/imgs/alexa_scores.jpeg"/> 
+<img src="https://github.com/Jmizraji/Reddit-Classifier/blob/master/imgs/google_scores.jpeg"/> 
 
-<img src="https://git.generalassemb.ly/Jmizraji/project_3/blob/master/imgs/alexa_comments_box.jpeg"/> 
+<img src="https://github.com/Jmizraji/Reddit-Classifier/blob/master/imgs/alexa_comments_box.jpeg"/> 
 
-<img src="https://git.generalassemb.ly/Jmizraji/project_3/blob/master/imgs/google_comments_box.jpeg"/>  
+<img src="https://github.com/Jmizraji/Reddit-Classifier/blob/master/imgs/google_comments_box.jpeg"/>  
 
 #### What are the most frequent words in both datasets?
 
-<img src="https://git.generalassemb.ly/Jmizraji/project_3/blob/master/imgs/alexa_most_freq_1.jpeg"/>  
+<img src="https://github.com/Jmizraji/Reddit-Classifier/blob/master/imgs/alexa_most_freq_1.jpeg"/>  
 
-<img src="https://git.generalassemb.ly/Jmizraji/project_3/blob/master/imgs/google_most_freq_1.jpeg"/>  
+<img src="https://github.com/Jmizraji/Reddit-Classifier/blob/master/imgs/google_most_freq_1.jpeg"/>  
 
 The word counts here reveal to us that some of the most common words that are **unique** to each invidivual dataset are `alexa`, `echo`, `dot`, `google`, `home`, `nest`, `assistant`, which make these words make good predictors for our model.
 
@@ -68,9 +69,9 @@ Alternatively, the most common words that are the **same** in each dataset are w
 
 #### How positive, neutral, or negative is the sentiment of a post?
 
-<img src="https://git.generalassemb.ly/Jmizraji/project_3/blob/master/imgs/alexa_sentiment_compound.jpeg"/>  
+<img src="https://github.com/Jmizraji/Reddit-Classifier/blob/master/imgs/alexa_sentiment_compound.jpeg"/>  
 
-<img src="https://git.generalassemb.ly/Jmizraji/project_3/blob/master/imgs/google_sentiment_compound.jpeg"/>  
+<img src="https://github.com/Jmizraji/Reddit-Classifier/blob/master/imgs/google_sentiment_compound.jpeg"/>  
 
 I classified the sentiment by classifying the compound score as follows:
 
@@ -107,9 +108,9 @@ In this case of my predictions, `Google Home = 0` and `Alexa = 1`.
 
 #### Logistic Regression Results
 
-<img src="https://git.generalassemb.ly/Jmizraji/project_3/blob/master/imgs/log_reg1_curve.jpeg"/> 
+<img src="https://github.com/Jmizraji/Reddit-Classifier/blob/master/imgs/log_reg1_curve.jpeg"/> 
 
-<img src="https://git.generalassemb.ly/Jmizraji/project_3/blob/master/imgs/log_reg1_confusion_norm.jpeg"/> 
+<img src="https://github.com/Jmizraji/Reddit-Classifier/blob/master/imgs/log_reg1_confusion_norm.jpeg"/> 
 
 **Training Accuracy  - 99.6%**
 
@@ -117,9 +118,9 @@ In this case of my predictions, `Google Home = 0` and `Alexa = 1`.
 
 #### Random Forest Results
 
-<img src="https://git.generalassemb.ly/Jmizraji/project_3/blob/master/imgs/rf1_curve.jpeg"/> 
+<img src="https://github.com/Jmizraji/Reddit-Classifier/blob/master/imgs/rf1_curve.jpeg"/> 
 
-<img src="https://git.generalassemb.ly/Jmizraji/project_3/blob/master/imgs/rand_forest_confusion_norm.jpeg"/> 
+<img src="https://github.com/Jmizraji/Reddit-Classifier/blob/master/imgs/rand_forest_confusion_norm.jpeg"/> 
 
 **Training Accuracy  - 94.8%**
 
